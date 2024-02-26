@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #00c3f9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid white;
+    padding:0px 10px ;
+  }
+  .nav-head{
+    color:white;
+    font-family:"Roboto";
+    cursor: pointer;
+  }
+  .span-logo{
+    color:rgb(214, 28, 115);
+  }
+  .nav-items {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+  }  
+.logout-button-lg {
+    background-color: #3B4856;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 22px;
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout-button-sm {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout-icon-sm {
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 768px) {
+    .nav-items {
+      margin-left: auto;
+    }
+    .logout-button-lg {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .navbar {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .nav-items {
+      gap: 30px;
+    }
+    .logout-button-lg {
+      font-size: 16px;
+      padding: 6px 24px;
+    }
+    .logout-btn-list-item-small {
+      display: none;
+    }
+  }
+
+  
+
+  

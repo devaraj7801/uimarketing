@@ -1,0 +1,46 @@
+.main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#00c3f9;
+    height:100vh;
+
+}
+.signup-container{
+    padding:20px 20px;
+    border:1px solid white;
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+}
+.form-head{
+    color:white;
+    text-align:center;
+    font-size:40px;
+}
+input{
+    padding:15px 10px;
+    width:40vw;
+    margin:7px 0px;
+    border-radius:8px;
+    border:none;
+    outline:none;
+}
+.error{
+    color:rgb(201, 16, 16);
+    font-family:"Roboto";
+}
+.signup-button{
+    background-color:#3B4856;
+    color:white;
+    font-size:20px;
+    font-family:"Roboto";
+    cursor:pointer;
+    border:none;
+    outline:none;
+    padding:10px 0px;
+    border-radius:10px;
+    margin:10px 12px;
+}
